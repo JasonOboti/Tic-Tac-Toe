@@ -6,7 +6,7 @@ html {
   color: #1a1a1a;
 }
 
-h1{
+h1 {
   color: #e98a1d;
   font-size: 60px;
   font-weight: bold;
@@ -16,11 +16,10 @@ h1{
 }
 
 button {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 14px;
+  font-family: "Permanent Marker", cursive;
   color: white;
   border: none;
-  padding: 12px 60px;
+  padding: 12px 16px;
   margin-bottom: 50px;
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.26);
@@ -28,7 +27,13 @@ button {
   cursor: pointer;
   background-color: #e98a1d;
   font-size: 30px;
-  font-weight: bold; 
+  font-weight: bold;
+}
+
+a {
+  padding: 10px 150px;
+  color: white;
+  text-decoration: none;
 }
 
 button:hover {
@@ -43,12 +48,12 @@ body {
   min-height: 100vh;
   text-align: center;
   overflow: hidden;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 img {
   width: 100%;
-  border-radius:60px;
+  border-radius: 60px;
   border: 2px solid white;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
